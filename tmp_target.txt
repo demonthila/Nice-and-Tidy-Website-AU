@@ -1,0 +1,116 @@
+                <!-- start fancy text box item -->
+                <div class="col mb-30px">
+                    <div
+                        class="border-radius-6px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                        <div class="position-relative box-image">
+                            <a href="demo-green-energy-services-details.html"><img
+                                    src="img/service%20page%20/housewife-young-smiling-woman-with-basin-with-cleansing-appliances.jpg"
+                                    alt="Domestic Cleaning"></a>
+                        </div>
+                        <div class="bg-white">
+                            <div class="p-30px text-center">
+                                <a href="demo-green-energy-services-details.html"
+                                    class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Domestic Cleaning</a>
+                                <p>Regular and one-off home cleaning services tailored to your schedule and
+                                    requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fancy text box item -->
+                <!-- start fancy text box item -->
+                <div class="col mb-30px">
+                    <div
+                        class="border-radius-6px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                        <div class="position-relative box-image">
+                            <a href="demo-green-energy-services-details.html"><img
+                                    src="img/service%20page%20/2149343034.jpg" alt="Office Cleaning"></a>
+                        </div>
+                        <div class="bg-white">
+                            <div class="p-30px text-center">
+                                <a href="demo-green-energy-services-details.html"
+                                    class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Office Cleaning</a>
+                                <p>Professional office cleaning to maintain a hygienic and productive work environment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fancy text box item -->
+                <!-- start fancy text box item -->
+                <div class="col mb-30px">
+                    <div
+                        class="border-radius-6px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                        <div class="position-relative box-image">
+                            <a href="demo-green-energy-services-details.html"><img
+                                    src="img/service%20page%20/2149345550.jpg" alt="Retail Cleaning"></a>
+                        </div>
+                        <div class="bg-white">
+                            <div class="p-30px text-center">
+                                <a href="demo-green-energy-services-details.html"
+                                    class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Retail Cleaning</a>
+                                <p>Specialized retail cleaning keeping storefronts and display areas spotless daily.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fancy text box item -->
+                <!-- start fancy text box item -->
+                <div class="col md-mb-30px">
+                    <div
+                        class="border-radius-6px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                        <div class="position-relative box-image">
+                            <a href="demo-green-energy-services-details.html"><img
+                                    src="img/service%20page%20/stevepb-vacuum-cleaner-657719.jpg"
+                                    alt="Deep Cleaning"></a>
+                        </div>
+                        <div class="bg-white">
+                            <div class="p-30px text-center">
+                                <a href="demo-green-energy-services-details.html"
+                                    class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Deep Cleaning</a>
+                                <p>Thorough deep cleaning services for homes and businesses requiring intensive care.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fancy text box item -->
+                <!-- start fancy text box item -->
+                <div class="col md-mb-30px">
+                    <div
+                        class="border-radius-6px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                        <div class="position-relative box-image">
+                            <a href="demo-green-energy-services-details.html"><img
+                                    src="img/service%20page%20/u_sppn98nr6m-industrial-kitchen-10181659.jpg"
+                                    alt="Commercial Cleaning"></a>
+                        </div>
+                        <div class="bg-white">
+                            <div class="p-30px text-center">
+                                <a href="demo-green-energy-services-details.html"
+                                    class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Commercial Cleaning</a>
+                                <p>Bespoke commercial cleaning solutions for organizations of any size.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fancy text box item -->
+                <!-- start fancy text box item -->
+                <div class="col">
+                    <div
+                        class="border-radius-6px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                        <div class="position-relative box-image">
+                            <a href="demo-green-energy-services-details.html"><img
+                                    src="img/service%20page%20/wal_172619-sweeper-7218811.jpg"
+                                    alt="Move-in Cleaning"></a>
+                        </div>
+                        <div class="bg-white">
+                            <div class="p-30px text-center">
+                                <a href="demo-green-energy-services-details.html"
+                                    class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Move-in Cleaning</a>
+                                <p>Complete move-in/move-out cleaning ensuring properties are pristine for new
+                                    occupants.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fancy text box item -->
