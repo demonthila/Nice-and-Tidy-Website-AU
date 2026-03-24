@@ -30,7 +30,7 @@ if (!empty($_POST['email'])) {
 		<body>
 		<table width="50%" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tr>
-		<td colspan="2" align="center" valign="top"><img style=" margin-top: 15px; " src="http://www.yourdomain.com/images/logo-email.png" ></td>
+		<td colspan="2" align="center" valign="top"><img style=" margin-top: 15px; " src="https://niceandtidy.com.au/img/Black.png" alt="Nice & Tidy" ></td>
 		</tr>
 		<tr>
 		<td width="50%" align="right">&nbsp;</td>
@@ -56,8 +56,9 @@ if (!empty($_POST['email'])) {
 			// Always set content-type when sending HTML email
 			$headers = "MIME-Version: 1.0" . "\r\n";
 			$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-			// More headers
-			$headers .= 'From: <' . $email . '>' . "\r\n";
+			// More headers - Using fixed From to avoid spam filters and setting Reply-To to the subscriber's email
+			$headers .= 'From: Nice & Tidy Website <website@niceandtidy.com.au>' . "\r\n";
+			$headers .= 'Reply-To: ' . (isset($name) ? $name : '') . ' <' . $email . '>' . "\r\n";
 			if (mail($receiver_email, $subject, $message, $headers)) {
 
 				// Redirect to success page
