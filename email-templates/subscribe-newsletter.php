@@ -8,7 +8,7 @@ if (!empty($_POST['email'])) {
 	$enable_smtp = 'no'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'contact@niceandtidy.com.au';
+	$receiver_email = 'admin@niceandtidy.com.au';
 
 	// Email Receiver Name for SMTP Email
 	$receiver_name = 'Your Name';
@@ -70,14 +70,12 @@ if (!empty($_POST['email'])) {
 
 				//Success Message
 				echo '{ "alert": "alert-success", "message": "Your message has been sent successfully subscribed to our email list!" }';
-			}
-			else {
+			} else {
 				//Fail Message
 				echo '{ "alert": "alert-danger", "message": "Your message could not been sent!" }';
 			}
 
-		}
-		else { // SMTP
+		} else { // SMTP
 
 			// Email Receiver Addresses
 			$toemailaddresses = array();
@@ -121,15 +119,13 @@ if (!empty($_POST['email'])) {
 
 				//Success Message
 				echo '{ "alert": "alert-success", "message": "Your message has been sent successfully subscribed to our email list!" }';
-			}
-			else {
+			} else {
 				//Fail Message
 				echo '{ "alert": "alert-danger", "message": "Your message could not been sent!" }';
 			}
 		}
 
-	}
-	else { // Mailchimp
+	} else { // Mailchimp
 
 		$api_key = 'YOUR_MAILCHIMP_API_KEY'; // Your MailChimp API Key
 		$list_id = 'YOUR_MAILCHIMP_LIST_ID'; // Your MailChimp List ID
@@ -168,14 +164,12 @@ if (!empty($_POST['email'])) {
 
 			//Success Message
 			echo '{ "alert": "alert-success", "message": "Your message has been sent successfully subscribed to our email list!" }';
-		}
-		else {
+		} else {
 			//Fail Message
 			echo '{ "alert": "alert-danger", "message": "Your message could not been sent!" }';
 		}
 	}
-}
-else {
+} else {
 	//Empty Email Message
 	echo '{ "alert": "alert-danger", "message": "Please add an email address!" }';
 }
