@@ -97,7 +97,7 @@ if (!empty($_POST['email'])) {
 			$mail->Password = 'YOUR_SMTP_PASSWORD'; // Your Password
 			$mail->SMTPSecure = 'ssl'; // Your Secure Connection
 			$mail->Port = 465; // Your Port
-			$mail->setFrom($from, $name);
+			$mail->setFrom($email, $name);
 
 			foreach ($toemailaddresses as $toemailaddress) {
 				$mail->AddAddress($toemailaddress['email'], $toemailaddress['name']);
